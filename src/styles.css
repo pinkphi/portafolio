@@ -133,13 +133,8 @@ p {
   padding: 15px 30px;
 }
 
-footer .footer-email {
-  text-decoration: none;
-  color: black;
-}
-
 footer .social-links a {
-  margin: 0 20px;
+  margin: 10px 20px;
   color: var(--primary-color);
   background: var(--secondary-color);
   padding: 10px 14px;
@@ -285,4 +280,26 @@ footer .social-links a:hover {
 
 .contact-email {
   font-size: 14px;
+}
+
+.contact-content .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 38px;
+  transition: all 100ms ease-in-out;
+}
+
+.contact-content .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
+.contact-email {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  text-decoration: none;
+  color: black;
 }
