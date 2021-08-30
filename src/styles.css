@@ -76,6 +76,78 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.about-link:hover {
+  color: black;
+}
+
+.contact-link:hover {
+  color: black;
+}
+
+.index-work .btn {
+  font-family: var(--secondary-font);
+}
+.index-work .btn:hover {
+  color: black;
+  text-decoration: none;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+.index-work .btn-branding-outline {
+  background: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.contact-box h4 {
+  font-size: 48px;
+  font-family: var(--primary-font);
+}
+
+.contact-box p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin: -54px;
+}
+
+.contact-box .btn {
+  font-family: var(--secondary-font);
+}
+.contact-box .btn:hover {
+  color: black;
+  text-decoration: none;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+.contact-box .btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+footer .footer-email {
+  text-decoration: none;
+  color: black;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 28px;
+  transition: all 100ms ease-in-out;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -128,7 +200,7 @@ p {
   font-family: var(--secondary-font);
 }
 .about-section .btn:hover {
-  color: #212529;
+  color: black;
   text-decoration: none;
   transition: color 0.15s;
   cursor: pointer;
